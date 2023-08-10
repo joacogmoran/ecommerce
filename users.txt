@@ -1,0 +1,105 @@
+
+
+
+
+*********** VIEWS ***********
+
+GUEST
+|
+|-- home
+|   |-- filters
+|   |-- products
+|
+|-- search
+|   |-- filters
+|   |-- products
+
+
+SELLER
+|
+|-- home
+|   |-- filters
+|   |-- products
+|
+|-- search
+|   |-- filters
+|   |-- products
+|
+|-- favorites
+|   |-- products
+|
+|-- profile
+|   |-- img + data
+|   |-- edit profile btn
+|   |-- create prod btn
+|   |-- products
+
+
+CLIENT
+|
+|-- home
+|   |-- filters
+|   |-- products
+|
+|-- search
+|   |-- filters
+|   |-- products
+|
+|-- cart
+|   |-- products
+|
+|-- profile
+|   |-- img + data
+|   |-- edit profile btn
+|   |-- products
+
+
+
+
+
+
+*********** USER FLOW AND AUTH ***********
+
+SELLER
+
+- create product
+1) enters app
+2) navs to create
+3) create prod
+4) redirect to profile
+
+- edit product
+1) enters app
+2) navs to profile
+3) clicks on prod
+4) navs to prod page
+5) clicks edit btn
+6) navs to from
+7) edits prod
+8) redirect to prod page
+
+- delete product
+1) enters app
+2) navs to profile
+3) clicks prod card btn - delete
+4) redirect to profile
+
+
+
+CLIENT - SELLER
+
+- edit own profile
+1) enters app
+2) navs to profile
+
+- add a product to cart.
+1) enters app (home)
+2) navs to search
+3) searchs prod
+4) clicks prod btn - cart
+
+
+- remove prod from cart
+1) enters app (home)
+2) navs to cart
+3) clicks prod btn - cart
